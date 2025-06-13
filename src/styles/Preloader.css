@@ -1,0 +1,18 @@
+.preloader-container {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  color: #00ff99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+  z-index: 9999;
+}
+
+.decrypt-text {
+  font-size: 3rem;
+  letter-spacing: 0.2em;
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+}
+

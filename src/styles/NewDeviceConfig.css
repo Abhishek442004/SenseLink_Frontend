@@ -1,0 +1,114 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Akira", sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+
+  h1{
+    margin-left: 0px;
+  }
+  
+  .config-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .title h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .title h1 span {
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.2rem;
+  }
+  
+  .main-content a {
+    text-align: center;
+  }
+  
+  .main-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight {
+    color: red;
+  }
+  
+  .instructions {
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .config-button {
+    background-color: #e3a9a9;
+    color: black;
+    padding: 14px 28px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    
+  }
+  
+  .config-button:hover {
+    background-color: #d08c8c;
+  }
+  
+  .footer {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    margin-bottom: 17px;
+  }
+  
+  .footer span {
+    color: red;
+  }
+
+  .title {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-align: left;
+  }
+  
+  .title h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: white;
+  }
+  
+  .subtitle {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.2rem;
+    color: #aaa;
+  }
+
+  .button-container{
+    left: 0px;
+  }
+
+  .main-content{
+    margin-top: 100px;
+  }
+  
+
